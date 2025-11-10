@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "varasto"
+version = "0.1.0"
+description = "Varasto-projekti ohjelmistotuotannon harjoitukseen"
+authors = ["Fiia Haavisto <fiia.haavisto@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+pylint = "^3.0.0"
+coverage = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
